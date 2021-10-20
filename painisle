@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 3.2
+-- Version: 90
 
 -- Instances:
 
@@ -158,7 +158,7 @@ UICorner_3.Parent = drag
 
 -- Scripts:
 
-local function GNRBMI_fake_script() -- LoadIcon.LocalScript 
+local function TAVTUH_fake_script() -- LoadIcon.LocalScript 
 	local script = Instance.new('LocalScript', LoadIcon)
 
 	-- Dont touch
@@ -169,8 +169,8 @@ local function GNRBMI_fake_script() -- LoadIcon.LocalScript
 		end
 	end
 end
-coroutine.wrap(GNRBMI_fake_script)()
-local function VLRD_fake_script() -- drag.Dragify 
+coroutine.wrap(TAVTUH_fake_script)()
+local function DFZX_fake_script() -- drag.Dragify 
 	local script = Instance.new('LocalScript', drag)
 
 	local UIS = game:GetService("UserInputService")
@@ -211,8 +211,8 @@ local function VLRD_fake_script() -- drag.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(VLRD_fake_script)()
-local function YJPRDO_fake_script() -- cursor.LocalScript 
+coroutine.wrap(DFZX_fake_script)()
+local function ZUUFKZO_fake_script() -- cursor.LocalScript 
 	local script = Instance.new('LocalScript', cursor)
 
 	Spinny = script.Parent
@@ -222,8 +222,8 @@ local function YJPRDO_fake_script() -- cursor.LocalScript
 		Spinny.Rotation = Spinny.Rotation +9
 	end
 end
-coroutine.wrap(YJPRDO_fake_script)()
-local function GXMZKL_fake_script() -- drag.Main 
+coroutine.wrap(ZUUFKZO_fake_script)()
+local function QNYPG_fake_script() -- drag.Main 
 	local script = Instance.new('LocalScript', drag)
 
 	local main = script.Parent
@@ -312,6 +312,7 @@ local function GXMZKL_fake_script() -- drag.Main
 	
 	--------------------------------------------
 	
+		
 		-- walk to fuel , boat
 		function bypass()
 			local Blind = Instance.new("ScreenGui")
@@ -399,7 +400,7 @@ local function GXMZKL_fake_script() -- drag.Main
 			script.Parent.base.dialog.Text = "Doing Task...."
 	
 			------------------------------------------------------------------
-	
+			
 			function main(Player, Character)
 	
 				wait()
@@ -671,4 +672,4 @@ local function GXMZKL_fake_script() -- drag.Main
 		script.Parent:Destroy()
 	end)
 end
-coroutine.wrap(GXMZKL_fake_script)()
+coroutine.wrap(QNYPG_fake_script)()
