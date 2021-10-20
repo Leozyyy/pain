@@ -158,7 +158,7 @@ UICorner_3.Parent = drag
 
 -- Scripts:
 
-local function PYNMO_fake_script() -- LoadIcon.LocalScript 
+local function GNRBMI_fake_script() -- LoadIcon.LocalScript 
 	local script = Instance.new('LocalScript', LoadIcon)
 
 	-- Dont touch
@@ -169,8 +169,8 @@ local function PYNMO_fake_script() -- LoadIcon.LocalScript
 		end
 	end
 end
-coroutine.wrap(PYNMO_fake_script)()
-local function GLUJUOE_fake_script() -- drag.Dragify 
+coroutine.wrap(GNRBMI_fake_script)()
+local function VLRD_fake_script() -- drag.Dragify 
 	local script = Instance.new('LocalScript', drag)
 
 	local UIS = game:GetService("UserInputService")
@@ -211,8 +211,8 @@ local function GLUJUOE_fake_script() -- drag.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(GLUJUOE_fake_script)()
-local function YLSRZC_fake_script() -- cursor.LocalScript 
+coroutine.wrap(VLRD_fake_script)()
+local function YJPRDO_fake_script() -- cursor.LocalScript 
 	local script = Instance.new('LocalScript', cursor)
 
 	Spinny = script.Parent
@@ -222,8 +222,8 @@ local function YLSRZC_fake_script() -- cursor.LocalScript
 		Spinny.Rotation = Spinny.Rotation +9
 	end
 end
-coroutine.wrap(YLSRZC_fake_script)()
-local function TNHD_fake_script() -- drag.Main 
+coroutine.wrap(YJPRDO_fake_script)()
+local function GXMZKL_fake_script() -- drag.Main 
 	local script = Instance.new('LocalScript', drag)
 
 	local main = script.Parent
@@ -290,6 +290,8 @@ local function TNHD_fake_script() -- drag.Main
 	)
 	
 	a.MouseButton1Down:Connect(function()
+		
+		script.Parent.base.wor:Destroy()
 		
 		local Goals = {             --YOU CAN CHANGE THESE AND DELETE THE THINGS YOU DON'T WANT TO TWEEN
 			Position = UDim2.new(0.675, 0,0.846),
@@ -669,4 +671,4 @@ local function TNHD_fake_script() -- drag.Main
 		script.Parent:Destroy()
 	end)
 end
-coroutine.wrap(TNHD_fake_script)()
+coroutine.wrap(GXMZKL_fake_script)()
